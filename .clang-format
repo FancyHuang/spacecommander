@@ -9,7 +9,7 @@ AccessModifierOffset: -1
 ConstructorInitializerIndentWidth: 4
 SortIncludes: false
 
-AlignAfterOpenBracket: true
+AlignAfterOpenBracket: Align
 AlignEscapedNewlinesLeft: true
 AlignOperands: false
 AlignTrailingComments: true
@@ -17,9 +17,9 @@ AlignTrailingComments: true
 AllowAllParametersOfDeclarationOnNextLine: false
 AllowShortBlocksOnASingleLine: false
 AllowShortCaseLabelsOnASingleLine: false
-AllowShortFunctionsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: false
 AllowShortIfStatementsOnASingleLine: true
-AllowShortFunctionsOnASingleLine: All
+# AllowShortFunctionsOnASingleLine: All
 AllowShortLoopsOnASingleLine: true
 
 AlwaysBreakAfterDefinitionReturnType: false
@@ -58,7 +58,7 @@ Standard:        Auto
 IndentWidth:     4
 TabWidth:        8
 UseTab:          Never
-BreakBeforeBraces: Custom
+BreakBeforeBraces: Attach
 BraceWrapping: 
     AfterClass: true
     AfterControlStatement: false
